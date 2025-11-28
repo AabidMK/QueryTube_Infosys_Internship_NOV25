@@ -1,0 +1,776 @@
+id,title,description,publishedAt,tags,categoryId,defaultLanguage,defaultAudioLanguage,thumbnail_default,thumbnail_high,duration,privacyStatus,viewCount,likeCount,commentCount,channel_id,channel_title,channel_description,channel_country,channel_thumbnail,channel_subscriber,channel_videoCount
+V8COJv2dG2g,"That ""quick question"" at 4:59 PM always hits different. 😅","We know the question won’t be quick. 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Crystal Endless",2025-11-27T00:00:40Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Learn;,Campaign: Video Type:G4D SV: Comedic skits;,ct: AIG;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/V8COJv2dG2g/default.jpg,https://i.ytimg.com/vi/V8COJv2dG2g/hqdefault.jpg,5,public,4000,45,2,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+a7nJeXk6VxU,Vibe coding and context engineering with ADK,"Go from an empty folder to a fully deployed AI agent using only natural language. This video introduces ""vibe coding,"" a powerful technique to build applications from scratch using the Gemini CLI.
+
+Follow along with Sita and Amit as they demonstrate how to scaffold a new AI agent with the Agent Development Kit (ADK) in plain English. You'll then learn ""Context Engineering,"" the secret sauce for moving your agent from a prototype to production. See how to provide documentation, coding standards, and feature requirements to guide the AI in generating high-quality, maintainable code.
+
+Finally, watch as they deploy the entire agent to Google Cloud Run with a single command.
+
+Stick around for the ""Eng Talk"" segment, where Amit and Sita answer top community questions:
+- Is RAG obsolete with million-token context windows?
+- How do you manage context overload?
+- What metrics should you use to track context retrieval?
+- What are the best tips for token optimization?
+
+Chapters:
+0:00 - Introduction
+0:34 - Core Concepts
+3:39 - Setting up Gemini CLI in VS Code
+5:05 - Loading ADK Documentation for the Agent
+7:03 - Vibe coding an Expense Tracker from Scratch
+11:36 - Refactoring Code into Tools and Models
+16:10 - Debugging Python code with Gemini CLI
+25:15 - Why You Need Context Engineering
+26:36 - Creating Context Files: Gemini.md, PRD, & Summary
+32:02 - Building Advanced Features with Context Engineering
+35:52 - Preparing for Cloud Run Deployment (Docker & Server)
+37:44 - One-Command Deploy to Google Cloud Run
+39:30 - Recap
+40:48 - Community questions
+45:55 - Resources
+
+Resources:
+Learn more about the Agent Development Kit → https://google.github.io/adk-docs/
+Install the Gemini CLI → https://github.com/google-gemini/gemini-cli 
+Code from this tutorial → https://github.com/amitkmaraj/expense-tracker-agent
+A2A Protocol official site → https://a2a-protocol.org/latest/
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Products mentioned: Google ADK, Gemini CLI, Google AI",2025-11-26T17:00:00Z,"Google,developers,pr_pr: Google Cloud Tech;,Purpose: Learn;,Video Type:DevByte;,ct: ;,gds:N/A;",28,en,en,https://i.ytimg.com/vi/a7nJeXk6VxU/default.jpg,https://i.ytimg.com/vi/a7nJeXk6VxU/hqdefault.jpg,2807,public,3710,172,19,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+iFqDyWFuw1c,"Sundar Pichai: Gemini 3, Vibe Coding and Google's Full Stack Strategy","Logan Kilpatrick from Google DeepMind sits down with Sundar Pichai, CEO of Google and Alphabet to discuss the launch of Gemini 3, Nano Banana Pro and Google's overall AI momentum. They talk about Google’s long-term bets on infrastructure, what it’s actually like to ship SOTA models, and the rise of vibe coding. Sundar also shares his personal launch day rituals and thoughts on future moonshots like putting data centers in space.
+
+Listen to this podcast: 
+Apple Podcasts → https://goo.gle/3Bm7QzQ 
+Spotify → https://goo.gle/3ZL3ADl 
+
+Chapters:
+0:00 - Intro 
+0:51 - Shipping Gemini 3
+2:44 - Google's decade-long investment in AI
+4:27 - The full stack advantage
+5:43 - Scaling up compute and capacity
+7:32 - Sim-shipping Gemini across products
+9:35 - Nano Banana Pro
+12:13 - Monitoring launch day
+14:13 - Future model roadmap
+16:05 - Launch day rituals
+18:02 - The Blue Micro Kitchen
+21:57 - Future moonshots
+23:26 - The rise of vibe coding
+26:50 - What’s next
+
+Watch more Release Notes → https://goo.gle/4njokfg 
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Logan Kilpatrick, Sundar Pichai 
+Products Mentioned:  Google AI, Gemini",2025-11-25T23:00:42Z,"Google,developers,pr_pr: AI DevRel (fka Core ML);,Purpose: Learn;,Video Type:Podcast;,ct: AIG;;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/iFqDyWFuw1c/default.jpg,https://i.ytimg.com/vi/iFqDyWFuw1c/hqdefault.jpg,1655,public,59567,1847,207,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+YwYu1JWvn-8,What is a reliable system? An SRE perspective,"Reliable systems are a way to respect the user and deliver systems that degrade gracefully. A reliable system also anticipates failures and actively defends against them in any other systems it depends on.
+
+Learn more about SRE! → https://goo.gle/sre-resources 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Christine Rafla",2025-11-25T17:51:10Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Learn;,Campaign: BBDS;,Series: AASRE;,type:G4D SV: Educational ;,ct: AIG; ;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/YwYu1JWvn-8/default.jpg,https://i.ytimg.com/vi/YwYu1JWvn-8/hqdefault.jpg,63,public,3172,52,3,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+fBshJ_ps6WI,How to build reliable AI Agents?,"Join Ivan and Aparna Dhinakaran, CPO of Arize AI, as they discuss the challenges of moving AI agents from prototype to production. This tutorial demonstrates how to integrate the Google's Agent Development Kit (ADK) with Arize Phoenix to enable deep observability, tracing, and evaluation for your agents. Learn how to instrument your ADK agent with OpenTelemetry standards, visualize live traces to debug logic errors, and run evaluations to ensure your agent is reliable at scale.
+
+Chapters:
+0:00 - Introduction
+0:40 - Why observability matters for agents
+1:35 - Callbacks in ADK
+2:05 - Arize Phoenix
+2:45 - The Financial Advisor agent
+3:16 - Installation and setup
+4:30 - Demo: Live tracing
+5:20 - Error analysis and debugging
+7:09 - Scaling debug with evaluations
+8:46 - Wrap up
+
+Resources:
+Learn more about the Agent Development Kit → https://google.github.io/adk-docs/
+Check out the ADK Samples repo → https://github.com/google/adk-samples
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Products Mentioned: Google ADK, Google AI",2025-11-25T17:01:15Z,"Google,developers,Google ADK,Arize Phoenix,AI Agents,LLM Observability,OpenTelemetry,Python,Agent Development Kit,Arize AI",28,en,en,https://i.ytimg.com/vi/fBshJ_ps6WI/default.jpg,https://i.ytimg.com/vi/fBshJ_ps6WI/hqdefault.jpg,622,public,2290,103,5,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+hk6gwiZmSWA,Nano Banana Pro: Hands-on with the World’s Most Powerful Image Model,"Introducing Nano Banana Pro, a powerful model built on Gemini 3 Pro, designed to enhance text rendering, infographics, and structured content generation. Tune in to learn about Nano Banana Pro’s advanced visual reasoning and multi-turn generation capabilities, and how this next-gen tool enables complex image edits and real-world applications. In this episode, we discuss how user feedback and continuous benchmarking drive model improvements, ensuring a superior experience for developers.
+
+
+Listen to this podcast: 
+Apple Podcasts → https://goo.gle/3Bm7QzQ 
+Spotify → https://goo.gle/3ZL3ADl 
+
+Chapters:
+00:00 - Introducing Nano Banana Pro
+02:00 - Enhanced world understanding
+04:59 - Advanced text rendering
+05:49 - Gemini 3 Pro's influence
+09:30 - Multi-turn & infographics
+14:04 - Text rendering comparison
+16:26 - Multilingual text support
+18:22 - Infographics for learning
+24:00 - Multi-image input
+26:38 - Resolution & fidelity
+30:07 - Advanced editing & style
+32:09 - Practical use cases
+35:26 - Future outlook & thanks
+
+
+Watch more Release Notes → https://goo.gle/4njokfg 
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Logan Kilpatrick, Abhishek Sinha, Robin Strudel, Yilin Gao, Sherry Ben
+Products Mentioned:  Google AI, Gemini, Nano Banana",2025-11-25T01:39:39Z,"Google,developers,pr_pr: AI DevRel (fka Core ML);,Purpose: Learn;,Video Type:Podcast;,ct: AIG;;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/hk6gwiZmSWA/default.jpg,https://i.ytimg.com/vi/hk6gwiZmSWA/hqdefault.jpg,2185,public,8894,239,31,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+fXtna7UrL44,Koray Kavukcuoglu: “This Is How We Are Going to Build AGI”,"Join Logan Kilpatrick and Koray Kavukcuoglu, CTO of Google DeepMind and Chief AI Architect of Google, as they discuss Gemini 3 and the state of AI! 
+
+Their conversation includes the reception of Gemini 3, the ongoing advancements in AI research, and the role of benchmarks in pushing new frontiers. They explore critical areas for Gemini's focus, emphasizing instruction following, tool calls, and internationalization, alongside Google's collaborative approach to AI development.
+
+Listen to this podcast: 
+Apple Podcasts → https://goo.gle/3Bm7QzQ 
+Spotify → https://goo.gle/3ZL3ADl 
+
+Chapters:
+0:00 - Intro 
+2:00 - Gemini 3 launch reception
+4:16 - Continuous progress and innovation
+6:47 - Key areas for Gemini improvement
+11:45 - Product scaffolding for model improvement
+13:56 - Chief AI architect role
+17:04 - Engineering mindset and collaboration
+18:37 - Future growth areas for Gemini
+20:33 - From research to engineering mindset
+23:22 - The rise of generative media
+27:22 - Nano Banana Pro capabilities
+29:31 - Towards unified model checkpoints
+36:26 - Organizing for AI success
+38:26 - Balancing exploration and scaling
+41:40 - DeepMind's collaborative culture
+45:21 - Innovating at Google
+48:37 - Closing
+
+
+Watch more Release Notes → https://goo.gle/4njokfg 
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Logan Kilpatrick, Koray Kavukcuoglu
+Products Mentioned:  Google AI, Gemini",2025-11-24T22:37:26Z,"Google,developers,pr_pr: AI DevRel (fka Core ML);,Purpose: Learn;,Video Type:Podcast;,gds:Yes;,ct: AIG;",28,en,en,https://i.ytimg.com/vi/fXtna7UrL44/default.jpg,https://i.ytimg.com/vi/fXtna7UrL44/hqdefault.jpg,2925,public,12513,339,39,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+Yil8Gpd6dLg,What's happening under the hood with C's type conversion rules? Go!,"Today's C dev challenge explores a common source of bugs. At first glance, -1 is clearly less than 1, but C's type conversion rules have something to say about that. What's happening under the hood, and which branch actually executes? 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speakers: Laurie Wu",2025-11-24T14:01:07Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Learn;,Campaign: G4D: Puzzles;,Video Type:G4D SV: Educational ;,ct: AIG;;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/Yil8Gpd6dLg/default.jpg,https://i.ytimg.com/vi/Yil8Gpd6dLg/hqdefault.jpg,21,public,4518,69,19,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+9oYHU1hdDog,"Agents, AI & The Next Wave: Mike Clark on Vertex AI at DevFest Silicon Valley","AI just reset the developer playbook. In this DevFest Silicon Valley sit-down, Mike Clark (Google's Director of Product Management, AI Agents) sits down with Frank (Puf) Van Puffelen (Google Developer Expert and Engineer), sharing how agents are moving from demos to production with Vertex AI Agent Builder, Agent Engine, and the open-source Agent Developer Kit (SDK). They also discuss what “build → scale → govern” means for real teams.
+
+In this video we cover: 
+* Why AI is finally accessible (and why community matters) 
+* “Outcomes over lines of code” and the new definition of quality 
+* Citizen developers, vibe coding, and what pros should build next 
+* Continuous PRs, observability, OpenTelemetry, and open agent protocols (A2A, A2UI) 
+* Practical entry points, prebuilt agents, and deployment choices (Cloud Run, GKE, etc.)
+
+TL;DR: Stay curious. Start small. Ship agents with guardrails.
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Event: DevFest 2025 
+
+Products Mentioned: Google AI",2025-11-21T00:00:10Z,"Google,developers,pr_pr: Google Developer Groups;,Purpose: Learn;,Video Type:Interview;,ct: ;,gds:N/A;",28,en,en,https://i.ytimg.com/vi/9oYHU1hdDog/default.jpg,https://i.ytimg.com/vi/9oYHU1hdDog/hqdefault.jpg,1602,public,2031,52,14,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+9EGtawwvlNs,Build an AI Agent with Gemini 3,"Gemini 3 is our most intelligent model yet that helps you bring any idea to life. In this video, you’ll learn how to build an AI Agent with Gemini 3 Pro and the Agent Development Kit (ADK). You’ll explore how to build a single agent with access to Google Search as its tool, and interact with it using a web UI. We will also learn how Gemini 3 Pro uses Thought Signatures and we will explore its chain of thought when the agent receives a prompt. 
+
+
+Resources:
+Getting started with uv →  https://goo.gle/4a7M7KG 
+ADK Google Search Tool docs → https://goo.gle/3LGFKUR 
+Github Repo for the AI Agent built with Gemini 3 Pro → 
+https://goo.gle/4pq0pep 
+
+Timestamps:
+0:00 - Introduction to Gemini 3 Pro
+0:32 - Initializing the Project & Installing ADK and GenAI libraries 
+1:25 - Setting up Google AI Studio’s API Key & Creating Agent Scaffolding with ADK Create
+2:00 - Implementing the Google Search Tool 
+2:33 - Configuring the Gemini 3 Pro Model 
+3:14 - Deploying the Agent to ADK Web 
+4:29 - Testing the Agent
+5:24 - Thought Signatures and Analyzing Chain of Thought
+6:40 - Conclusion
+
+Speaker: Smitha Kolan 
+Products Mentioned: Gemini, Google AI, Agent Development Kit (ADK)",2025-11-20T21:45:49Z,"Google,developers,pr_pr: AI DevRel (fka Core ML);,Purpose: Learn;,Video Type:DevByte;,ct: ;,gds:N/A;",28,en,en,https://i.ytimg.com/vi/9EGtawwvlNs/default.jpg,https://i.ytimg.com/vi/9EGtawwvlNs/hqdefault.jpg,383,public,78822,2280,106,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+sCXuCczPE8A,What's on the newsdesk for Google Developers this November? Take a peek!,"From new updates to Google Play game to unveiling ADK Go, see what’s new for you, a Google developer!
+
+Watch more Google Developer News → https://goo.gle/4e8Rysd  
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Meghan Mehta
+Products Mentioned: Google AI, Agent Developer Kit (ADK), Google Play",2025-11-20T20:00:55Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Learn;,Campaign: ;,Video Type:G4D SV: Educational ;,ct: AIG; ;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/sCXuCczPE8A/default.jpg,https://i.ytimg.com/vi/sCXuCczPE8A/hqdefault.jpg,34,public,3685,47,4,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+hunRGj4Bpb0,Keep your code fresh and clean with YAGNI!,"Every extra line is more to test. The solution? Keep it simple, and build what's needed now.
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Crystal Endless",2025-11-20T19:30:53Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Learn;,Campaign: TIPS;,type:G4D SV: Educational ;,ct: AIG;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/hunRGj4Bpb0/default.jpg,https://i.ytimg.com/vi/hunRGj4Bpb0/hqdefault.jpg,34,public,8078,205,9,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+L0QHMLx02l4,"Introducing ADK Go, User Simulator, and more! - Google Developer News November 2025","Welcome to this month’s Google Developer News for a rundown of what’s new for developers! Dive into the new Google Play Console overview pages that provide a live review of your app's performance against key goals like user growth and monetization. Discover how Gemini-powered language translations are making localization easier for app bundles. And ADK Go? Watch this episode to be caught up on the latest, low-latency news for Google developers. 
+
+Chapters:
+0:00 - Intro
+0:31 - Gemini-powered app localization
+0:55 - Streamlined deep link validation
+1:08 - ADK user simulator for AI agents
+1:39 - Introducing ADK Go for Go developers
+1:53 - Conclusion 
+
+Resources: 
+Google Play → https://goo.gle/4ih9DHw 
+User stimulator → https://goo.gle/3LR1IEv 
+ADK Go → https://goo.gle/4rcg0Qm 
+
+Watch more Google Developer News → https://goo.gle/4e8Rysd  
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+#GoogleDeveloperNews 
+
+Speaker: Meghan Mehta
+Products Mentioned:  Google AI, Agent Developer Kit (ADK), Google Play",2025-11-20T17:02:19Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Learn;,Video Type:DevByte;,ct: ;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/L0QHMLx02l4/default.jpg,https://i.ytimg.com/vi/L0QHMLx02l4/hqdefault.jpg,132,public,5225,140,4,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+uzFOhkORVfk,Google Antigravity: Hands on with our new agentic development platform,"Explore Antigravity, Google DeepMind’s innovative new AI developer coding product, with Varun Mohan on Release Notes. This episode dives into Antigravity as a powerful agent development platform, integrating a familiar IDE experience with browser verification and Gemini 3.0 capabilities. Discover how developers can orchestrate complex agentic workflows, leverage artifacts for task communication, and balance AI automation with human collaboration. Learn about the philosophy behind building next-gen agentic experiences, the platform's multimodal strengths, and its role in accelerating software development at scale.
+
+
+Listen to this podcast: 
+Apple Podcasts → https://goo.gle/3Bm7QzQ 
+Spotify → https://goo.gle/3ZL3ADl 
+
+Chapters:
+00:00 - Introducing Google Antigravity
+04:02 - Evolution of AI in coding
+04:53 - Beyond writing code
+06:21 - Ideal Google Antigravity user
+09:48 - Evolving user personas
+11:46 - Agents versus the IDE
+14:46 - Human-agent collaboration
+16:43 - Local versus server-side
+18:50 - Self-improvement and knowledge
+21:29 - Generalizing agent capabilities
+24:20 - Naming Google Antigravity
+27:04 - Integrating Google's AI models
+27:59 - Demo: Airbnb for dogs
+28:48 - Understanding artifacts
+29:51 - Asynchronous user feedback
+32:16 - Agent manager workflow
+33:17 - Browser actuation demo
+34:36 - Browser for research and testing
+36:45 - Parallel agent conversations
+41:04 - Agent task best practices
+42:51 - Future of Google Antigravity
+
+Watch more Release Notes → https://goo.gle/4njokfg 
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Logan Kilpatrick, Varun Mohan 
+Products Mentioned:  Google AI, Gemini",2025-11-20T04:40:52Z,"Google,developers,pr_pr: AI DevRel (fka Core ML);,Purpose: Learn;,Video Type:Podcast;,gds:Yes;,ct: AIG;",28,en,en,https://i.ytimg.com/vi/uzFOhkORVfk/default.jpg,https://i.ytimg.com/vi/uzFOhkORVfk/hqdefault.jpg,2690,public,22578,555,73,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+ku-N-eS1lgM,Gemini 3 for Developers,"Gemini 3 is our most intelligent model yet that helps you bring any idea to life. In this video, you’ll learn how to create an API key and send your first request to Gemini 3 Pro. You’ll explore use cases like data analysis, image and video understanding, and combining multiple built-in tools like Google Search and Code execution.
+
+Resources: 
+Start building with Gemini 3 → https://goo.gle/4r9LUNe 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Nikita Namjoshi
+Products Mentioned: Gemini, Google AI, Google AI Studio",2025-11-19T20:03:14Z,"Google,developers,pr_pr: AI DevRel (fka Core ML);,Purpose: Learn;,Video Type:DevByte;,ct: ;,gds:N/A;",28,en,en,https://i.ytimg.com/vi/ku-N-eS1lgM/default.jpg,https://i.ytimg.com/vi/ku-N-eS1lgM/hqdefault.jpg,562,public,28932,791,46,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+mci0f2dy7G0,Gemini 3: Launch day reactions,"Join us for a special episode of Release Notes as we unpack Gemini 3, Google’s latest AI model with key team members. Learn how Gemini 3 empowers developers with enhanced multimodal understanding, agentic capabilities for complex tasks, and generative interfaces that transform prompts into interactive applications. We discuss real-world use cases, the iterative development process driven by user feedback, and the strategic balance between model performance and broad accessibility across various Google platforms.
+
+
+Listen to this podcast: 
+Apple Podcasts → https://goo.gle/3Bm7QzQ 
+Spotify → https://goo.gle/3ZL3ADl 
+
+Chapters:
+00:00 - Introducing Gemini 3
+03:08 - Gemini 3 everywhere
+04:13 - The product-model partnership
+08:20 - Balancing speed and quality
+11:40 - Gemini 3 'wow' moments
+27:47 - Generative interfaces and UI
+31:44 - Gemini's agentic capabilities
+33:55 - Proactive AI and future
+34:55 - Managing compute demand
+39:32 - The Gemini 3 family
+41:45 - Conclusion
+
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Tulsee Doshi, Josh Woodward, Logan Kilpatrick 
+Products Mentioned:  Google AI, Gemini",2025-11-19T03:58:36Z,"Google,developers",28,en,en,https://i.ytimg.com/vi/mci0f2dy7G0/default.jpg,https://i.ytimg.com/vi/mci0f2dy7G0/hqdefault.jpg,2537,public,12381,357,38,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+Pb6XHGi542A,Vibe coding with Gemini 3 in AI Studio,"Gemini 3 is our most intelligent model yet that helps you bring any idea to life. It excels at coding and masters both agentic workflows and complex zero-shot tasks. In this video, you’ll learn how to build and vibe code apps with Gemini 3 Pro in Google AI Studio. You’ll build three different apps: a landing page, an interactive dashboard, and a video game.
+
+Resources: 
+Start building with Gemini 3 → https://goo.gle/47Qa5cc 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Patrick Lober 
+Products Mentioned: Gemini, Google AI, Google AI Studio",2025-11-18T20:00:53Z,"Google,developers,pr_pr: AI DevRel (fka Core ML);,Purpose: Learn;,Video Type:DevByte;,ct: ;,gds:N/A;",28,en,en,https://i.ytimg.com/vi/Pb6XHGi542A/default.jpg,https://i.ytimg.com/vi/Pb6XHGi542A/hqdefault.jpg,680,public,31718,794,47,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+3F9nDL0jGW0,What is a Service Level Objective (SLO)?,"A SLO is a structured way of understanding your system’s performance and communicating this to your users. Moreover, see how an SLO takes the guess work out of your priorities, makes shared goals crystal clear for your team, and more! 
+
+Resources: 
+Learn more → https://goo.gle/4o2A6tx 
+
+Subscribe to Google for Developers → https://goo.gle/developers",2025-11-18T05:00:11Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Learn;,Series: AASRE;,type:G4D SV: Educational ;,gds:Yes;,ct: AIG;,campaign: BBDS;",28,en,en,https://i.ytimg.com/vi/3F9nDL0jGW0/default.jpg,https://i.ytimg.com/vi/3F9nDL0jGW0/hqdefault.jpg,58,public,5335,95,5,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+GHPjBkwEKh4,Why does this throw a null pointer exception?  Go!,"Time for a Java debugging challenge! This code attempts to switch on an Integer wrapper type, but crashes with a NullPointerException. Can you identify the minimal fix? Share your solution in the comments!
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speakers:Dio Gado",2025-11-17T14:00:21Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Learn;,Campaign: G4D: Puzzles;,Video Type:G4D SV: Educational ;,ct: AIG;;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/GHPjBkwEKh4/default.jpg,https://i.ytimg.com/vi/GHPjBkwEKh4/hqdefault.jpg,17,public,5492,61,11,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+QAXe1nfo8Jk,It was – indeed – not their first day.,"That ""first day"" state of mind 🙃
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Crystal Endless, Justine Lai",2025-11-14T20:00:25Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Influence;,Campaign: ;,type:G4D SV: Comedic skits;,ct: AIG;;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/QAXe1nfo8Jk/default.jpg,https://i.ytimg.com/vi/QAXe1nfo8Jk/hqdefault.jpg,12,public,31197,316,18,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+RQ_WppuZxWk,5 ways Genkit makes building AI apps faster ⚡,"Genkit is an open source framework that helps you build, deploy, and monitor production-ready AI-powered apps. Learn 5 ways this tool can streamline your projects. 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: M.E Francis 
+Products Mentioned: Google AI",2025-11-13T20:00:21Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Influence;,Campaign: STV; type:G4D SV: Educational ;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/RQ_WppuZxWk/default.jpg,https://i.ytimg.com/vi/RQ_WppuZxWk/hqdefault.jpg,57,public,7767,128,14,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+hQ6nqDP905k,Introduction to Metrax: Evaluation metrics for JAX,"Metrax is a JAX-native, high-performance, open-source evaluation metrics library developed by Google. Metrax offers standard evaluation metric implementations using JAX, allowing you to focus on your model and training. 
+
+Resources: 
+
+Documentation → https://goo.gle/3LFkZIR 
+GitHub repo → https://goo.gle/3WMu05o 
+Example notebook → https://goo.gle/3JYO0yN 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Yufeng Guo 
+Products Mentioned: Google AI",2025-11-13T17:01:15Z,"Google,developers,pr_pr: AI DevRel (fka Core ML);,Purpose: Learn;,Video Type:DevByte;,ct: ;,gds:N/A;",28,en,en,https://i.ytimg.com/vi/hQ6nqDP905k/default.jpg,https://i.ytimg.com/vi/hQ6nqDP905k/hqdefault.jpg,320,public,3054,107,9,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+iezyXHUniVI,How are AI agents useful for reliability?,"Agents are autonomous helpers powered by AI that take actions. Specifically, they can help you move from reactive to proactive levels of maturity, digest a plethora of alerts from operations, and more! See how AI agents can help you with SRE. 
+
+Watch more Ask A Site Reliability Engineer → 
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Nastassia Mitskevich 
+Products Mentioned: Google AI",2025-11-12T05:01:03Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Learn;,Campaign: BBDS;,Series: AASRE;,type:G4D SV: Educational ;,ct: AIG;,gds: yes;",28,en,en,https://i.ytimg.com/vi/iezyXHUniVI/default.jpg,https://i.ytimg.com/vi/iezyXHUniVI/hqdefault.jpg,82,public,5431,152,9,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+qf_HIvdmNcw,What's the one tool you couldn't work without? Share your go-to. 👇,"What tools help boost your productivity? Let's hear what these devs have to say. 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Event: Google IO",2025-11-11T20:00:53Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Influence;,Video Type:G4D SV: I/O ;,ct: AIG;;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/qf_HIvdmNcw/default.jpg,https://i.ytimg.com/vi/qf_HIvdmNcw/hqdefault.jpg,43,public,5587,107,4,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+GH1Ns0Wenec,Which DevFest dev are you?,"DevFest so you can manifest your personality!
+
+Resources:
+
+RSVP for DevFest here → https://goo.gle/43wInOK 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Event: DevFest 
+
+Speaker: Crystal Endless",2025-11-11T17:00:24Z,"Google,developers,pr_pr: Google Developer Groups;,Purpose: Learn;,Campaign: ;,Video Type:Trailer/Promo;,ct: AIG; ;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/GH1Ns0Wenec/default.jpg,https://i.ytimg.com/vi/GH1Ns0Wenec/hqdefault.jpg,23,public,4946,73,5,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+U4r5v837JaA,What do you think this Python code will print? Go!,"Here's a Python closure puzzle that catches even experienced developers! This code creates lambda functions in a loop, but the output might surprise you. The issue involves how Python handles variable binding in closures - a subtle behavior that can lead to unexpected bugs. What do you think gets printed when we call these functions? Understanding closure semantics is crucial for functional programming patterns.
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speakers: Juan Vasquez",2025-11-10T17:01:01Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Learn;,Campaign: G4D: Puzzles;,Video Type:G4D SV: Educational ;,ct: AIG;;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/U4r5v837JaA/default.jpg,https://i.ytimg.com/vi/U4r5v837JaA/hqdefault.jpg,18,public,5968,68,10,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+r3-x0GtOmmc,Code Execution with Gemini | Intro to Tools,"Tools extend the abilities of large language models by connecting them to the outside world. Learn how to use the Code Execution tool with Gemini, which enables the model to generate and run Python code, for problems that involve math, data analysis, and code-based reasoning. This is Part 2 of our series on using tools with the Gemini API.
+
+Subscribe to Google for Developers → https://goo.gle/developers
+
+Products Mentioned: Gemini, Google AI Studio,  Gemini API",2025-11-08T00:58:43Z,"Google,developers,pr_pr: AI DevRel (fka Core ML);,Purpose: Learn;,Video Type:DevByte;,ct: ;,gds:N/A;",28,en,en,https://i.ytimg.com/vi/r3-x0GtOmmc/default.jpg,https://i.ytimg.com/vi/r3-x0GtOmmc/hqdefault.jpg,289,public,10195,253,12,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+u5sQDKot0qE,Building AI Agents with ADK Go,"Introducing the  Agent Development Kit (ADK) Go! This new toolkit is officially here, designed for Go developers ready to build powerful generative AI applications.
+
+Get started with our hands-on tutorial, where we'll guide you through building your very first intelligent Go agent. You'll learn the core concepts and see how the ADK Go streamlines the development of sophisticated AI solutions natively in Go.
+
+Resources:
+Google for Developers → https://goo.gle/developers
+ADK documentation → https://google.github.io/adk-docs
+Sample agents → https://github.com/google/adk-samples
+ADK Go source code → https://github.com/google/adk-go
+
+Chapters: 
+0:00 - Introducing the Go ADK
+0:53 - Build your first Go agent
+1:49 - Run your agent
+2:23 - Understanding Tools
+3:28 - Run your agent with tools
+5:00 - Multi-agent patterns in Go
+7:58 - State, Sessions, and Events 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+
+Speaker: Ivan Cheung 
+Products Mentioned: Agent Development Kit (ADK)",2025-11-07T17:13:59Z,"Google,developers,pr_pr: Google Cloud Tech;,Purpose: Learn;,Video Type:DevByte;,ct: AIG;,gds:N/A;",28,en,en,https://i.ytimg.com/vi/u5sQDKot0qE/default.jpg,https://i.ytimg.com/vi/u5sQDKot0qE/hqdefault.jpg,602,public,11012,428,26,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+QagTKYVfF_k,Differences between AI automation and augmentation? 🤔,"Automation is when AI completes a task with minimal user input and handles routing tasks. Augmentation amplifies the user’s own skills, maximizing their creativity.  See how you can strike a balance between these powerful approaches to unlock new possibilities and enhance human potential.
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Jonathan Caton 
+Products Mentioned: Google AI",2025-11-07T05:00:29Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Learn;,Campaign: BBDS;,type:G4D SV: Educational ;,ct: AIG; ;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/QagTKYVfF_k/default.jpg,https://i.ytimg.com/vi/QagTKYVfF_k/hqdefault.jpg,73,public,5757,208,4,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+lytlt8gBAYo,THINK FAST: register for Devfest!,"Where did the box go? Never you mind. Just ask us about DevFest.
+
+Resources:
+RSVP for DevFest here → https://goo.gle/43wInOK 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Event: DevFest 
+
+Speaker: Crystal Endless",2025-11-06T20:00:47Z,"Google,developers,pr_pr: Google Developer Groups;,Purpose: Learn;,Campaign: ;,Video Type:Trailer/Promo;,ct: AIG; ;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/lytlt8gBAYo/default.jpg,https://i.ytimg.com/vi/lytlt8gBAYo/hqdefault.jpg,9,public,22338,154,13,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+yx9zHnBK85o,Just in 📰: Google Play Console updates -Gemini localization & deep link validation,"Uncover powerful new tools and features in Google Play Console designed for app developers. See how you can leverage Gemini for effortless localization, ensure reliable deep linking, and more!  Explore how these updates can accelerate your app's success and market reach.
+
+Resources: 
+ Learn more → https://goo.gle/49711R4
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+#GoogleDeveloperNews
+
+Speaker: Andrew Brogdon
+Products Mentioned:  Gemini",2025-11-06T17:29:09Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Influence;,Campaign: ;,Video Type:G4D SV: Educational ;,ct: AIG; ;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/yx9zHnBK85o/default.jpg,https://i.ytimg.com/vi/yx9zHnBK85o/hqdefault.jpg,58,public,5118,111,6,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+ukW6n0UCp5g,Supercharge your agents with Agent2Agent (A2A) Protocol! ⚡,"AI agents can write code, fetch data, and handle multi-step tasks, but often work in isolation. See how the Agent2Agent (A2A) Protocol can help your agents communicate, coordinate, and complete tasks across different systems. 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: M.E Francis 
+Products Mentioned: Cloud",2025-11-06T05:01:10Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Influence;,Campaign: STV; type:G4D SV: Comedic skits;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/ukW6n0UCp5g/default.jpg,https://i.ytimg.com/vi/ukW6n0UCp5g/hqdefault.jpg,60,public,6673,154,7,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+NWNNDvehBIU,How to get started on Opal,"Megan Li  - Senior PM @ Google Labs - walks through a tutorial of Opal's visual editor. Learn how to create a new AI workflow or mini-app using natural language and a visual app builder. 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Megan Li 
+Products Mentioned: Gemini",2025-11-05T20:35:20Z,"Google,developers,pr_pr: AI DevRel (fka Core ML);,Purpose: Learn;,Video Type:DevByte;,ct: AIG;,gds:N/A;",28,en,en,https://i.ytimg.com/vi/NWNNDvehBIU/default.jpg,https://i.ytimg.com/vi/NWNNDvehBIU/hqdefault.jpg,407,public,35103,782,37,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+LXqassleEcw,Don’t forget to join us at #TheAndroidShow,"A behind the scenes peek at where Google devs ideate, design, and ship features that help developers distribute their apps and games. Get the full scoop at #TheAndroidShow!
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Sajna Verna",2025-11-05T20:00:31Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Learn;,Campaign: ;,type:Trailer/Promo;,ct: AIG;;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/LXqassleEcw/default.jpg,https://i.ytimg.com/vi/LXqassleEcw/hqdefault.jpg,24,public,6689,120,8,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+wACQU4TWHTw,That feeling when you drop your app's wait time. ⚡️,"Why, yes. I am happier that my app is low-latency. 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: M.E Francis",2025-11-05T05:01:13Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Influence;,Campaign: ;,type:G4D SV: Comedic skits;,ct: AIG;;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/wACQU4TWHTw/default.jpg,https://i.ytimg.com/vi/wACQU4TWHTw/hqdefault.jpg,13,public,8015,97,4,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+VK5fxLOKPu8,What is SRE?,"Our Google SREs explain what Site Reliability Engineering is and why reliability is an essential component of modern software engineering.
+
+Resources: 
+Learn about SRE → https://goo.gle/43IXUv2 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Salim Virji",2025-11-05T00:00:40Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Learn;,Campaign: BBDS;,type:G4D SV: Educational ;,ct: AIG; ;,gds:Yes;,series: AASRE;",28,en,en,https://i.ytimg.com/vi/VK5fxLOKPu8/default.jpg,https://i.ytimg.com/vi/VK5fxLOKPu8/hqdefault.jpg,75,public,8411,334,8,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+gq6mXwicBO4,What’s going to happen when we call show()? Go!,"Here's a Python scoping puzzle that catches many developers off guard! This code appears straightforward - print a global variable, reassign it locally, print again. But Python's scoping rules have a surprise in store. Will this print 10 and 5, or will it raise an error? Understanding local versus global scope is essential for writing correct Python code.
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speakers: Juan Vazquez",2025-11-03T14:01:23Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Learn;,Campaign: G4D: Puzzles;,Video Type:G4D SV: Educational ;,ct: AIG;;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/gq6mXwicBO4/default.jpg,https://i.ytimg.com/vi/gq6mXwicBO4/hqdefault.jpg,20,public,16177,135,14,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+1QdNxfI2wTc,A developer’s haunted house 👻,"Outdated dependencies, endless meetings, and 3-way merge conflicts? Screamworthy! 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: M.E Francis",2025-10-31T04:00:06Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Learn;,Campaign: ;,type:G4D SV: Holiday or Observance;,ct: AIG;;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/1QdNxfI2wTc/default.jpg,https://i.ytimg.com/vi/1QdNxfI2wTc/hqdefault.jpg,24,public,15649,213,13,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+Y1SRd-HKbBU,How should devs use AI thoughtfully? (3 questions to guide you),"3 essential questions to thoughtfully integrate AI into your products by prioritizing user needs.
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Mahima Pushkarna 
+Products Mentioned:  Google AI",2025-10-30T23:00:59Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Influence;,Campaign: BBDS;,Video Type:G4D SV: Educational ;,ct: AIG; ;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/Y1SRd-HKbBU/default.jpg,https://i.ytimg.com/vi/Y1SRd-HKbBU/hqdefault.jpg,90,public,11041,203,6,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+Pm3vxmvrK18,Connecting Gemini API to the Outside World with Tools | Intro to Tools,"Learn what tools are and why they're needed to get real-time information through a practical demo in Google AI Studio. This video shows how to enable the ""Grounding with Google Search"" tool to bypass a model's knowledge cutoff and provide a correct, cited answer to a real-world query. This is Part 1 of our series on using tools with the Gemini API.
+
+Resources:
+
+Start building AI apps → https://goo.gle/4oARdmR 
+
+Watch more AI Studio Tutorials→https://goo.gle/AIStudioTutorials 
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Products Mentioned: Google AI, Gemini, Gemini API",2025-10-30T22:20:02Z,"Google,developers,Type: Upload Only;,ct: AIG;",28,en,en,https://i.ytimg.com/vi/Pm3vxmvrK18/default.jpg,https://i.ytimg.com/vi/Pm3vxmvrK18/hqdefault.jpg,176,public,10028,179,7,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+-YGIV5nrI3M,Just in from the news desk 📰: Gemini 2.5 Computer Use Model,"The Computer Use model is a specialized model built on Gemini 2.5 Pro’s capabilities to power agents that can interact with user interfaces. See how this tool enables you to build browser control agents that interact with and automate tasks.
+
+Resources:
+Learn more→ https://goo.gle/Computer-Use-Model 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+#GoogleDeveloperNews
+
+Speaker: Juan Vasquez 
+Products Mentioned:  Products Mentioned: Google AI, Gemini, Gemini API",2025-10-30T16:00:00Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Learn;,Campaign: ;,Video Type:G4D SV: Educational ;,ct: AIG; ;,gds:Yes;,series: Google Developer News;",28,en,en,https://i.ytimg.com/vi/-YGIV5nrI3M/default.jpg,https://i.ytimg.com/vi/-YGIV5nrI3M/hqdefault.jpg,70,public,11028,225,4,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+DuP1yo6jWmA,The Halloween Haul - The Developer’s Version,"Some tricks, some treats, but everyone is excited for those AI goodies 👻
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: M.E Francis, Meg Bauman, Bri Davis",2025-10-30T04:00:12Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Learn;,Campaign: ;,type:G4D SV: Holiday or Observance;,ct: AIG;;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/DuP1yo6jWmA/default.jpg,https://i.ytimg.com/vi/DuP1yo6jWmA/hqdefault.jpg,18,public,18347,150,8,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+gYZS61BRXW0,Dev Debates: small commits or big commits? Tests before or after?,"Developers sound off on their favorite coding practices. Share yours below. 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Event: Google IO",2025-10-29T04:01:00Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Influence;,Campaign: ;,Video Type:G4D SV: I/O ;,ct: AIG; ;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/gYZS61BRXW0/default.jpg,https://i.ytimg.com/vi/gYZS61BRXW0/hqdefault.jpg,46,public,11887,169,15,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+VwmFyowbSR0,JJ Con • Keynote,"Jujutsu, aka JJ, is an open-source, Git-compatible VCS that is both simple and powerful. This year, JJ Con 2025 was a dedicated conference hosted by Google for the Jujutsu version control system. In this talk from JJ Con, Martin von Zweigbergk presents on architecture and future plans.
+
+Resources: 
+Learn more about Jujutsu, aka JJ, here → https://goo.gle/3L81HMa 
+View the slides for this presentation here → https://goo.gle/4qfuFJZ 
+Check out other presentations from JJ Con in the playlist → https://www.youtube.com/playlist?list=PLOU2XLYxmsILM5cRwAK6yKdtKnCK6Y4Oh
+
+Watch more videos from JJ Con 2025 → https://goo.gle/3Jxbj2p 
+Subscribe to Google for Developers → https://goo.gle/developers
+
+Products mentioned: Google Open Source",2025-10-27T18:52:53Z,"Google,developers,Purpose: Learn;,Video Type:Livestream;,ct: ;,gds:N/A;,pr_pr: Google Open Source;,ct: AIG;",28,en,en,https://i.ytimg.com/vi/VwmFyowbSR0/default.jpg,https://i.ytimg.com/vi/VwmFyowbSR0/hqdefault.jpg,738,public,1488,31,4,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+LoV307-d19A,What do you think the second print will show? Go!,"Here's a classic Python gotcha that trips up developers at all levels! This simple helper function appears straightforward, but mutable default arguments create unexpected behavior. When you call this function twice, the results might surprise you. Understanding how Python handles default arguments is crucial for avoiding subtle bugs. What do you think the second print statement outputs?
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speakers: Juan Vasquez",2025-10-27T13:00:51Z,"Google,developers,pr_pr: Google for Developers;,Purpose: Learn;,Campaign: G4D: Puzzles;,Video Type:G4D SV: Educational ;,ct: AIG;;,gds:Yes;",28,en,en,https://i.ytimg.com/vi/LoV307-d19A/default.jpg,https://i.ytimg.com/vi/LoV307-d19A/hqdefault.jpg,17,public,6641,96,16,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+HKW163OhuSU,Introducing Google Maps Grounding in the Gemini API,"Unlock powerful new experiences by connecting the Gemini API with Google Maps. With access to real-time data from over 250 million places, you can now build incredible, location-aware AI applications.
+
+Resources: 
+Start building AI apps → https://goo.gle/4oARdmR 
+
+Watch more AI Studio Tutorials→https://goo.gle/AIStudioTutorials 
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Logan Kilpatrick 
+Products mentioned: Google AI Studio, Gemini APi, Gemini, Google Maps",2025-10-24T19:24:30Z,"Google,developers,pr_pr: Gemini API / AI Studio;,Purpose: Learn;,Video Type:DevByte;,ct: ;,gds:N/A;",28,en,en,https://i.ytimg.com/vi/HKW163OhuSU/default.jpg,https://i.ytimg.com/vi/HKW163OhuSU/hqdefault.jpg,188,public,8417,172,8,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+MwhJ2AAEWVo,Build an AI Restaurant Finder in 60 Seconds with Gemini & Google Maps Grounding in AI Studio,"Go from idea to a live restaurant recommender app in under a minute. This tutorial shows you how to use the power of Gemini and Google Maps Grounding in Google AI Studio to build powerful, location-aware AI applications with incredible speed.
+
+Resources: 
+Start building AI apps → https://goo.gle/4oARdmR 
+
+Watch more AI Studio Tutorials→https://goo.gle/AIStudioTutorials 
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Ammaar Reshi
+Products mentioned: Google AI Studio, Gemini",2025-10-24T19:23:11Z,"Google,developers,pr_pr: Gemini API / AI Studio;,Purpose: Learn;,Video Type:DevByte;,ct: ;,gds:N/A;",28,en,en,https://i.ytimg.com/vi/MwhJ2AAEWVo/default.jpg,https://i.ytimg.com/vi/MwhJ2AAEWVo/hqdefault.jpg,140,public,5274,88,6,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+ZHpT3ev2XLA,Vibe Code with Your Voice in Google AI Studio,"Introducing a new way to build: vibe code with your voice. See how you can dictate changes, add features, or describe your app using our new speech-to-text feature in Google AI Studio. It intelligently removes filler words and mistakes for a clean, efficient prompt every time.
+
+Resources: 
+Start building AI apps → https://goo.gle/4oARdmR 
+
+Watch more AI Studio Tutorials→https://goo.gle/AIStudioTutorials 
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Ammaar Reshi
+Products mentioned: Google AI Studio",2025-10-24T18:45:14Z,"Google,developers,pr_pr: Gemini API / AI Studio;,Purpose: Learn;,Video Type:DevByte;,ct: ;,gds:N/A;",28,en,en,https://i.ytimg.com/vi/ZHpT3ev2XLA/default.jpg,https://i.ytimg.com/vi/ZHpT3ev2XLA/hqdefault.jpg,70,public,4528,42,3,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+zlDziSQ4JTk,New & Improved API Key and Project Management in Google AI Studio,"We've shipped a brand new API key and Projects page inside of Google AI Studio, making it easier to create, import, and manage projects. 
+
+Resources: 
+Start building AI apps → https://goo.gle/4oARdmR 
+
+Watch more AI Studio Tutorials→https://goo.gle/AIStudioTutorials 
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Logan Kilpatrick 
+Products mentioned: Google AI Studio",2025-10-24T18:35:46Z,"Google,developers,pr_pr: Gemini API / AI Studio;,Purpose: Learn;,Video Type:DevByte;,ct: ;,gds:N/A;",28,en,en,https://i.ytimg.com/vi/zlDziSQ4JTk/default.jpg,https://i.ytimg.com/vi/zlDziSQ4JTk/hqdefault.jpg,134,public,3436,39,3,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
+joa1N3HlDak,Overview of the new vibe coding experience in AI Studio,"Introducing the new AI first vibe coding experience in Google AI Studio. Built to take you from prompt to production with Gemini, and optimized for AI app creation. 
+
+Resources: 
+Start building AI apps → https://goo.gle/4oARdmR 
+
+Watch more AI Studio Tutorials→https://goo.gle/AIStudioTutorials 
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Logan Kilpatrick 
+Products mentioned: Google AI Studio",2025-10-24T18:34:43Z,"Google,developers,pr_pr: Gemini API / AI Studio;,Purpose: Learn;,Video Type:DevByte;,ct: ;,gds:N/A;",28,en,en,https://i.ytimg.com/vi/joa1N3HlDak/default.jpg,https://i.ytimg.com/vi/joa1N3HlDak/hqdefault.jpg,281,public,17506,352,16,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.
+
+Explore more at developers.google.com
+
+",US,https://yt3.ggpht.com/WZ_63J_-745xyW_DGxGi3VUyTZAe0Jvhw2ZCg7fdz-tv9esTbNPZTFR9X79QzA0ArIrMjYJCDA=s88-c-k-c0x00ffffff-no-rj,2570000,6866
