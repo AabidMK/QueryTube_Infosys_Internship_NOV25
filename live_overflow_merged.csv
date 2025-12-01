@@ -17,7 +17,7 @@ Jonathan on Twitter: https://x.com/j0nathanj
 01:17:56 - From Computers to Humans
 01:23:20 - Summary
 
-=[ ❤️ Support / Ads ]=
+=[  Support / Ads ]=
 
 → My courses: https://www.hextree.io/
 → My font: https://shop.liveoverflow.com/
@@ -35,7 +35,7 @@ Jonathan on Twitter: https://x.com/j0nathanj
 → TikTok: https://www.tiktok.com/@liveoverflow_
 → Blog: https://liveoverflow.com/",2025-04-08T19:37:47Z,,27,en,en,https://i.ytimg.com/vi/BOLN_B0qnZk/default.jpg,https://i.ytimg.com/vi/BOLN_B0qnZk/hqdefault.jpg,PT1H26M44S,32363,1105,92,public,UClcE-kVhqyiHCcjYwcpfj9w,LiveOverflow,"just a wannabe hacker... making videos about various IT security topics and participating in hacking competitions.
 
--=[ ❤️ Support me ]=-
+-=[  Support me ]=-
 
 Patreon per Video: https://www.patreon.com/join/liveoverflow
 YouTube Membership per Month: https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w/join
@@ -6502,3 +6502,4 @@ for examples implementing the PlayerMoveEvent.  Eventually I ended up with this
 If the position of the player changed   I get the current location, get the X and Z 
 coordinate, multiple the coordinate by 1000 and   cast it to a long. And then I use %10 to basically 
 check the last digit. So is the last digit a ..."
+
