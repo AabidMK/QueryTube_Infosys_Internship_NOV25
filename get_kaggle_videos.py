@@ -4,7 +4,7 @@ from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, No
 import pandas as pd
 import time
 
-API_KEY = "AIzaSyAtkKtCR78wA9UmOm1BEDWzdOAxzbWPynw"   # <-- put your key here
+API_KEY = "Put your key here"  
 CHANNEL_SEARCH_NAME = "Kaggle"  # we want Kaggle channel
 NUM_VIDEOS = 50
 
@@ -123,4 +123,5 @@ def main():
     print("Saved kaggle_50_videos.csv with", len(df), "rows")
 
 if __name__ == "__main__":
+
     main()
