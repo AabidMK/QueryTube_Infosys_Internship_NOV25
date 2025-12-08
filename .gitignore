@@ -1,16 +1,3 @@
-# Virtualenv
-# https://realpython.com/python-virtual-environments-a-primer/#the-virtualenv-project
-.Python
-[Bb]in
-[Ii]nclude
-[Ll]ib
-[Ll]ib64
-[Ll]ocal
-[Ss]cripts
-pyvenv.cfg
-.venv
-pip-selfcheck.json
-
 # Ignore ALL virtual environments anywhere in the project
 .venv/
 venv/
@@ -24,6 +11,5 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-# embedding-transcript/.venv
 
 
