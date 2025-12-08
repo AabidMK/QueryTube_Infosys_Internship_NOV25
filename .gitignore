@@ -1,12 +1,86 @@
-# Virtualenv
-# https://realpython.com/python-virtual-environments-a-primer/#the-virtualenv-project
-.Python
-[Bb]in
-[Ii]nclude
-[Ll]ib
-[Ll]ib64
-[Ll]ocal
-[Ss]cripts
-pyvenv.cfg
-.venv
-pip-selfcheck.json
+# -------------------------------
+# PYTHON / ML PROJECT GITIGNORE
+# -------------------------------
+
+# Virtual environments
+.venv/
+venv/
+env/
+*/.venv/
+*/venv/
+*/env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Byte-compiled
+*.so
+*.dll
+*.dylib
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+.history/
+
+# PyCharm
+.idea/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+*.env
+
+# Model / embedding files
+*.npy
+*.npz
+*.pth
+*.pt
+*.ckpt
+*.h5
+
+# HuggingFace cache
+~/.cache/huggingface/
+hf_cache/
+cache/
+*/cache/
+
+# Transformers cache
+transformers_cache/
+*/transformers_cache/
+
+# Torch libraries (prevent large files)
+*.lib
+*.a
+*.whl
+*.bin
+
+# Large dataset or artifacts
+data/
+*.csv.gz
+*.zip
+*.tar
+*.tar.gz
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
