@@ -24,6 +24,6 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
+# embedding-transcript/.venv
 
 
