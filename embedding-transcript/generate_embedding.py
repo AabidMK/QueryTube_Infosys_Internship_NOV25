@@ -7,7 +7,7 @@ import re
 # ---------------------------------------
 # CONFIG
 # ---------------------------------------
-INPUT_CSV = "../cleaned_metadata.csv"
+INPUT_CSV = "../merge/final_clean_dataset.csv"
 OUTPUT_CSV = "title_transcript_embeddings.csv"
 EMBEDDING_NPY = "title_transcript_embeddings.npy"
 
