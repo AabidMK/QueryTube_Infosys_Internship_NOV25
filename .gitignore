@@ -8,3 +8,10 @@ python
 test.py 
 test2.py 
 test_transcript_single.py 
+yt-env/ 
+__pycache__/ 
+videos.index 
+*.pyc 
+.env 
+*.db 
+*.index 
