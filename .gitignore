@@ -1,0 +1,10 @@
+yt-env/ 
+__pycache__/ 
+videos.index 
+*.pyc 
+pip 
+python 
+.env 
+test.py 
+test2.py 
+test_transcript_single.py 
