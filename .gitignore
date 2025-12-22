@@ -84,5 +84,5 @@ data/
 Thumbs.db
 ehthumbs.db
 
-chroma_db/
+vector_db/
 
