@@ -43,11 +43,13 @@ documents = []
 for _, row in df.iterrows():
     metadatas.append({
         "title": row.get("title", ""),
-        "channel_title": row.get("channel_title", ""),
-        "view_count": int(row.get("viewcount", 0)),
+        # ✅ Use the correct dataset column
+        "channel_title": row.get("channel_title_x", row.get("channel_title_y", "Unknown")),
+        "view_count": int(row.get("viewcount_x", 0)),   # ✅ also match your dataset column
         "duration": float(row.get("duration_seconds", 0)),
     })
     documents.append(str(row.get("transcript", "")))  # ✅ ensure string
+
 
 collection.add(
     ids=ids,
