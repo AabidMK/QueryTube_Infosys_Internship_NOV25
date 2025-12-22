@@ -6,7 +6,7 @@ import random
 from dotenv import load_dotenv
 
 # --- CONFIG ---
-INPUT_CSV = "videos_output.csv"
+INPUT_CSV = "videos_metadata.csv"
 OUTPUT_CSV = "serpapi_transcripts.csv"
 FAILED_CSV = "serpapi_failed.csv"
 

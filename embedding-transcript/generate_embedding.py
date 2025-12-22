@@ -65,14 +65,11 @@ for idx, row in df.iterrows():
     chunks = chunk_text(transcript, CHUNK_SIZE)
     chunk_embeddings = model.encode(chunks)
 
-    # Mean pooling for transcript
-    if isinstance(chunk_embeddings, list):
-        transcript_embedding = np.mean(chunk_embeddings, axis=0)
-    else:
-        transcript_embedding = chunk_embeddings.mean(axis=0)
+    transcript_embedding = np.mean(chunk_embeddings, axis=0)
 
-    # ---- Combine Title + Transcript ----
-    final_vector = np.concatenate([title_embedding, transcript_embedding])  # 768-dim
+    # ---- Weighted Mean (384-dim) ----
+    alpha = 0.3
+    final_vector = alpha * title_embedding + (1 - alpha) * transcript_embedding
 
     final_embeddings.append(final_vector)
 
