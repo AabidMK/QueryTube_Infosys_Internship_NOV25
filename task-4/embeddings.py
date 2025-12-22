@@ -4,7 +4,7 @@ from sentence_transformers import SentenceTransformer
 # =========================
 # 1. Load chunked data
 # =========================
-df = pd.read_csv("chunked_data.csv")
+df = pd.read_csv("chunked_data_with_titles.csv")
 
 print("Loaded:", df.shape)
 
@@ -27,7 +27,7 @@ df["chunk_embedding"] = embeddings.tolist()
 # =========================
 # 4. Save final result
 # =========================
-df.to_csv("chunked_embeddings_new.csv", index=False, encoding="utf-8")
+df.to_csv("chunked_embeddings_with_titles.csv", index=False, encoding="utf-8")
 
 print("\n🎉 Embeddings done!")
 print("Saved as: chunked_embeddings.csv")

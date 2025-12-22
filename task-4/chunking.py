@@ -48,6 +48,7 @@ for idx, row in df.iterrows():
     for i, chunk in enumerate(chunks):
         chunk_rows.append({
             "video_id": video_id,
+            "title": row["title"],
             "channel_title": row["channel_title"],
             "chunk_index": i,
             "chunk_text": chunk
@@ -58,7 +59,7 @@ chunk_df = pd.DataFrame(chunk_rows)
 # ======================
 # 5. Save chunked data
 # ======================
-chunk_df.to_csv("chunked_data_new.csv", index=False, encoding="utf-8")
+chunk_df.to_csv("chunked_data_with_titles.csv", index=False, encoding="utf-8")
 
 print("🎉 Chunking complete!")
 print("Total chunks created:", chunk_df.shape[0])
