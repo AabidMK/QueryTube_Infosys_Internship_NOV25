@@ -22,7 +22,6 @@ transcript = result["documents"][0]
 title = result["metadatas"][0].get("title", "Unknown Title")
 
 # 4. Prompt for a "Deep Narrative" Paragraph
-# Adding "comprehensive" and "minimum 150 words" helps prevent small outputs.
 prompt = f"""
 Write one comprehensive, detailed narrative paragraph summarizing this video. 
 Focus on the technical progression, specific tools mentioned (like HTML, CSS, JS), 
@@ -56,3 +55,4 @@ try:
 
 except Exception as e:
     print(f"Error: {e}")
+
