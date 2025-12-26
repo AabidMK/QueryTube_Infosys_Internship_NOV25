@@ -1,64 +1,85 @@
 import os
-from dotenv import load_dotenv
-import pandas as pd
 import ast
 import uuid
+import pandas as pd
+from dotenv import load_dotenv
 from qdrant_client import QdrantClient
 from qdrant_client.http import models as rest
 
-# Load .env variables
+# -----------------------------------
+# Load env
+# -----------------------------------
 load_dotenv()
 
-QDRANT_URL = os.getenv("QDRANT_URL")
-CSV_PATH = "final_with_embeddings.csv"   # same folder as script
+QDRANT_URL = os.getenv("QDRANT_URL", "http://localhost:6333")
 COLLECTION_NAME = "youtube_videos"
 
+client = QdrantClient(url=QDRANT_URL)
+
+# -----------------------------------
+# Utilities
+# -----------------------------------
 def parse_embedding(s):
     try:
         return list(map(float, ast.literal_eval(s)))
-    except:
+    except Exception:
         return None
 
-# Load CSV
-df = pd.read_csv(CSV_PATH)
+# -----------------------------------
+# Core ingestion logic (REUSABLE)
+# -----------------------------------
+def upload_csv_to_qdrant(csv_path: str):
+    df = pd.read_csv(csv_path)
 
-# Connect to LOCAL Qdrant
-client = QdrantClient(url=QDRANT_URL)
+    # Detect dimension
+    first_embedding = parse_embedding(df["embedding"].iloc[0])
+    if first_embedding is None:
+        raise ValueError("Invalid embedding format")
 
-# Detect vector dimension
-dim = len(parse_embedding(df["embedding"][0]))
+    dim = len(first_embedding)
 
-# Create collection
-client.recreate_collection(
-    collection_name=COLLECTION_NAME,
-    vectors_config=rest.VectorParams(size=dim, distance=rest.Distance.COSINE)
-)
-
-# Prepare points
-points = []
-for i, row in df.iterrows():
-    emb = parse_embedding(row["embedding"])
-    if emb is None:
-        continue
-
-    payload = {
-        "video_id": row["id"],
-        "title": row["title"],
-        "channel_title": row["channel_title"],
-        "viewCount": row["viewCount"],
-        "duration_seconds": row["duration_seconds"],
-        "transcript": row["transcript"]
-    }
-
-    points.append(
-        rest.PointStruct(
-            id=str(uuid.uuid4()),  # safe for Qdrant
-            vector=emb,
-            payload=payload
+    # Recreate collection (same behavior as your script)
+    client.recreate_collection(
+        collection_name=COLLECTION_NAME,
+        vectors_config=rest.VectorParams(
+            size=dim,
+            distance=rest.Distance.COSINE
         )
     )
 
-# Upload points
-client.upsert(collection_name=COLLECTION_NAME, points=points)
+    points = []
+    for _, row in df.iterrows():
+        emb = parse_embedding(row["embedding"])
+        if emb is None:
+            continue
 
-print("Upload Complete! Data successfully uploaded to LOCAL Qdrant.")
+        payload = {
+            "video_id": row.get("id"),
+            "title": row.get("title"),
+            "channel_title": row.get("channel_title"),
+            "viewCount": row.get("viewCount"),
+            "duration_seconds": row.get("duration_seconds"),
+            "transcript": row.get("transcript")
+        }
+
+        points.append(
+            rest.PointStruct(
+                id=str(uuid.uuid4()),
+                vector=emb,
+                payload=payload
+            )
+        )
+
+    client.upsert(
+        collection_name=COLLECTION_NAME,
+        points=points
+    )
+
+    return len(points)
+
+# -----------------------------------
+# Allow standalone execution
+# -----------------------------------
+if __name__ == "__main__":
+    count = upload_csv_to_qdrant("final_with_embeddings.csv")
+    print(f"Upload Complete! {count} vectors uploaded.")
