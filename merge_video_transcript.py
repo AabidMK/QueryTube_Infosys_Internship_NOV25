@@ -4,6 +4,7 @@ videos_csv = "videos_metadata.csv"
 transcripts_csv = "serpapi_transcripts.csv"
 output_csv = "merged_metadata_with_transcripts.csv"
 
+
 # Load videos CSV
 videos_df = pd.read_csv(videos_csv)
 print("Videos loaded:", videos_df.shape)
