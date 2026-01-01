@@ -26,18 +26,27 @@ def summarize_video(video_id: str) -> str:
 
     transcript = result["documents"][0]
 
-    prompt = f"""
-You are an expert technical summarizer.
+    prompt = f"""You are an expert technical content summarizer.
 
-Summarize the following YouTube video transcript clearly and concisely.
-Focus on:
-- main topics
-- key explanations
-- important insights
+    Summarize the following YouTube video transcript in a well-structured format.
 
-Transcript:
-{transcript}
-"""
+    Use this structure:
+
+    📌 Video Overview
+    - Brief description of the video (2–3 lines)
+
+    🧠 Key Concepts Explained
+    - Bullet points of main ideas
+
+    🛠️ Tools / Technologies Mentioned
+    - Tools, frameworks, or technologies (if any)
+
+    🎯 Key Takeaways
+    - 3–5 concise takeaways
+
+    Transcript:
+    {transcript}
+    """
 
     response = client_llm.models.generate_content(
         model=MODEL_NAME,

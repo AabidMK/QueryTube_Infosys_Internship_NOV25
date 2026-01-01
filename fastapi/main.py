@@ -1,4 +1,5 @@
 from fastapi import FastAPI, UploadFile, File
+from fastapi.middleware.cors import CORSMiddleware
 import shutil
 import os
 from ingest import ingest_csv
@@ -6,6 +7,13 @@ from search import semantic_search
 from summarize import summarize_video
 
 app = FastAPI(title="QueryTube API")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 @app.get("/")
 def greet():
     return "Welcome to QueryTube AI"

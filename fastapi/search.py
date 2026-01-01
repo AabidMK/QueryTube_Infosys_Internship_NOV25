@@ -21,15 +21,7 @@ def semantic_search(query: str):
     )
 
     response = []
-
-    # for i in range(len(results["ids"][0])):
-    #     metadata = results["metadatas"][0][i]
-    #     response.append({
-    #         "video_id": results["ids"][0][i],
-    #         "title": metadata.get("title", "N/A"),
-    #         "channel_title": metadata.get("channel_title", "Unknown"),
-    #         "similarity_score": round(1 - results["distances"][0][i], 4)
-    #     })
+    
     for i in range(len(results["ids"][0])):
         distance = results["distances"][0][i]
         similarity = max(0.0, 1.0 - distance)
@@ -41,9 +33,7 @@ def semantic_search(query: str):
             "channel_title": metadata.get("channel_title", "Unknown"),
             "similarity_score": round(similarity, 4)
         })
-
-        
-
+  
     return response
 
 if __name__ == "__main__":
