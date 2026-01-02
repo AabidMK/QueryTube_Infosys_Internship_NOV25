@@ -1,77 +1,105 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, UploadFile, File
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from sentence_transformers import SentenceTransformer
 import chromadb
 from transformers import pipeline
+import pandas as pd
+import io
 
-# Initialize FastAPI
 app = FastAPI()
 
-# ✅ Persistent ChromaDB client
+# ============================
+# ✅ CORS
+# ============================
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# ============================
+# ✅ ChromaDB
+# ============================
 chroma_client = chromadb.PersistentClient(path="./chroma_db")
 collection = chroma_client.get_or_create_collection(name="video_collection")
 
-# Load embedding model
+# ============================
+# ✅ Models
+# ============================
 model = SentenceTransformer("all-MiniLM-L6-v2")
-
-# Load summarizer once at startup
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
 
-# -----------------------------
-# Data Models
-# -----------------------------
-class VideoData(BaseModel):
-    id: str
-    transcript: str
-    title: str
-    channel_title: str
-    view_count: int
-    duration: float
-
+# ============================
+# ✅ Schemas
+# ============================
 class SearchRequest(BaseModel):
     query: str
-    n_results: int = 3
+    n_results: int = 5
 
 class SummarizeRequest(BaseModel):
     video_id: str
 
-# -----------------------------
-# Endpoints
-# -----------------------------
-
+# ============================
+# ✅ Ingest Endpoint (CSV Upload)
+# ============================
 @app.post("/ingest")
-def ingest_video(video: VideoData):
+async def ingest_csv(file: UploadFile = File(...)):
+    """
+    Expects columns from your CSV:
+    id, title, transcript, channel_title, viewcount, duration_seconds, embedding
+    """
     try:
-        embedding = model.encode(video.transcript).tolist()
-        collection.add(
-            ids=[video.id],
-            documents=[video.transcript],
-            embeddings=[embedding],
-            metadatas=[{
-                "title": video.title,
-                "channel_title": video.channel_title,
-                "view_count": video.view_count,
-                "duration": video.duration,
-            }]
-        )
-        return {"status": "success", "video_id": video.id}
+        contents = await file.read()
+        df = pd.read_csv(io.BytesIO(contents))
+
+        required_cols = {"id", "title", "transcript", "channel_title", "viewcount", "duration_seconds", "embedding"}
+        missing = required_cols - set(df.columns)
+        if missing:
+            return {"status": "error", "message": f"Missing columns: {sorted(list(missing))}"}
+
+        rows = 0
+        for _, row in df.iterrows():
+            transcript = str(row["transcript"])
+            if not transcript or transcript.strip().lower() in {"nan", ""}:
+                continue
+
+            # Use pre-computed embedding from CSV
+            embedding = eval(row["embedding"])  # convert string → list of floats
+
+            # Safe conversion for viewcount and duration
+            try:
+                view_count = int(float(row["viewcount"]))
+            except Exception:
+                view_count = 0
+
+            try:
+                duration = float(row["duration_seconds"])
+            except Exception:
+                duration = 0.0
+
+            collection.add(
+                ids=[str(row["id"])],
+                documents=[transcript],
+                embeddings=[embedding],
+                metadatas=[{
+                    "title": str(row["title"]),
+                    "channel_title": str(row["channel_title"]),
+                    "view_count": view_count,
+                    "duration": duration,
+                }]
+            )
+            rows += 1
+
+        return {"status": "success", "rows_ingested": rows}
     except Exception as e:
         return {"status": "error", "message": str(e)}
 
-@app.post("/peek")
-def peek_collection():
-    try:
-        raw = collection.peek()
-        formatted = {
-            "ids": raw["ids"],
-            "documents": raw["documents"],
-            "metadatas": raw["metadatas"],
-            "embedding_dims": [len(vec) for vec in raw["embeddings"]]
-        }
-        return {"status": "success", "results": formatted}
-    except Exception as e:
-        return {"status": "error", "message": str(e)}
-
+# ============================
+# ✅ Search Endpoint
+# ============================
 @app.post("/search")
 def search_collection(request: SearchRequest):
     try:
@@ -81,27 +109,47 @@ def search_collection(request: SearchRequest):
             n_results=request.n_results
         )
         formatted = {
-            "ids": results["ids"],
-            "documents": results["documents"],
-            "metadatas": results["metadatas"]
+            "ids": results.get("ids", []),
+            "documents": results.get("documents", []),
+            "metadatas": results.get("metadatas", []),
+            "distances": results.get("distances", [])
         }
         return {"status": "success", "results": formatted}
     except Exception as e:
         return {"status": "error", "message": str(e)}
 
+# ============================
+# ✅ Summarize Endpoint
+# ============================
 @app.post("/summarize")
 def summarize_transcript(request: SummarizeRequest):
     try:
         results = collection.get(ids=[request.video_id])
-        transcript = results["documents"][0]
+        docs = results.get("documents", [])
+        if not docs or not docs[0] or docs[0].strip().lower() in {"nan", ""}:
+            return {"video_id": request.video_id, "summary": "No valid transcript found for summarization."}
+
+        transcript = docs[0]
+        words = transcript.split()
+        if len(words) > 800:
+            transcript = " ".join(words[:800])
 
         summary = summarizer(
             transcript,
-            max_length=60,
-            min_length=20,
+            max_length=120,
+            min_length=40,
             do_sample=False
         )[0]["summary_text"]
 
-        return {"status": "success", "video_id": request.video_id, "summary": summary}
-    except Exception as e:
-        return {"status": "error", "message": str(e)}
+        return {
+            "video_id": request.video_id,
+            "summary": summary
+        }
+    except Exception:
+        return {
+            "video_id": request.video_id,
+            "summary": "Error occurred while summarizing."
+        }
+
+# # uvicorn app:app --reload
+
