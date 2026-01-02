@@ -4,7 +4,7 @@ import subprocess
 # ============================
 # Step 1 — Connect to ChromaDB
 # ============================
-client = chromadb.PersistentClient(path="./chroma_db")
+client = chromadb.PersistentClient(path="chroma_store")  # same path as Task 5
 collection = client.get_collection("youtube_videos")
 
 # ============================
@@ -12,19 +12,19 @@ collection = client.get_collection("youtube_videos")
 # ============================
 def get_transcript(video_id):
     results = collection.get(ids=[video_id])
-    if results and results["documents"]:
-        transcript = results["documents"][0]
+    if results and results["metadatas"]:
         metadata = results["metadatas"][0]
+        transcript = metadata.get("transcript", None)
         return transcript, metadata
     return None, None
 
 # ============================
-# Step 3 — Summarize with Ollama
+# Step 3 — Summarize with Ollama (local LLM)
 # ============================
 def summarize_with_ollama(transcript):
     prompt = f"Summarize the following transcript in 5-6 sentences:\n\n{transcript}"
     result = subprocess.run(
-        ["ollama", "run", "llama2"],  # You can replace 'llama2' with 'mistral', 'gemma', etc.
+        ["ollama", "run", "llama2"],  # replace 'llama2' with 'mistral', 'gemma', etc.
         input=prompt.encode("utf-8"),
         capture_output=True
     )
@@ -37,7 +37,7 @@ if __name__ == "__main__":
     video_id = input("Enter Video ID: ").strip()
     transcript, metadata = get_transcript(video_id)
 
-    if not transcript:
+    if not transcript or transcript == "nan":
         print("❌ Transcript not found for this video ID.")
     else:
         print("\n=== Video Metadata ===")
