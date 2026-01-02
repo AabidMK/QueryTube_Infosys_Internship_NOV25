@@ -1,0 +1,150 @@
+/* ---------- GLOBAL ---------- */
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  color: #1f2937;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 40px;
+}
+
+/* ---------- TITLE ---------- */
+.title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: #1e3a8a;
+}
+
+/* ---------- TABS ---------- */
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.tabs button {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #e5e7eb;
+  cursor: pointer;
+  font-size: 15px;
+  transition: all 0.2s ease;
+}
+
+.tabs button:hover {
+  background: #dbeafe;
+}
+
+.tabs button.active {
+  background: #2563eb;
+  color: white;
+}
+
+/* ---------- CARD ---------- */
+.card {
+  background: white;
+  padding: 25px 30px;
+  border-radius: 14px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.card.full {
+  width: 100%;
+}
+
+/* ---------- INPUTS ---------- */
+.card input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 15px 0;
+  border-radius: 8px;
+  border: 1px solid #cbd5f5;
+  font-size: 15px;
+}
+
+.card input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* ---------- BUTTONS ---------- */
+.card button {
+  padding: 9px 18px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.card button:hover {
+  background: #1e40af;
+}
+
+/* ---------- STATUS ---------- */
+.status {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #374151;
+}
+
+/* ---------- SEARCH RESULTS ---------- */
+.results {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.result-row {
+  display: flex;
+  gap: 18px;
+  background: #f9fafb;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  transition: box-shadow 0.2s ease;
+}
+
+.result-row:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* ---------- THUMBNAIL ---------- */
+.result-row img {
+  width: 220px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* ---------- VIDEO INFO ---------- */
+.info h3 {
+  margin: 0 0 6px 0;
+  font-size: 18px;
+  color: #1e3a8a;
+}
+
+.info p {
+  margin: 3px 0;
+  font-size: 14px;
+  color: #374151;
+}
+
+/* ---------- SUMMARY ---------- */
+.summary-box {
+  margin-top: 20px;
+  padding: 18px;
+  background: #f1f5f9;
+  border-radius: 12px;
+  line-height: 1.7;
+  font-size: 15px;
+  border-left: 5px solid #2563eb;
+}
