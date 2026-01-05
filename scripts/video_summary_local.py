@@ -1,69 +1,74 @@
-import os
 import pandas as pd
 import subprocess
+import sys
 
-# ============================
-# PATH SETUP
-# ============================
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TRANSCRIPT_CSV = os.path.join(BASE_DIR, "data", "transcripts_output.csv")
+# ===============================
+# CONFIG
+# ===============================
+META_CSV_PATH = "vector_db/meta_for_index.csv"
+OLLAMA_MODEL = "phi"
 
-# ============================
-# LOAD TRANSCRIPTS
-# ============================
-if not os.path.exists(TRANSCRIPT_CSV):
-    raise FileNotFoundError("transcripts_output.csv not found")
+# ===============================
+# LOAD METADATA CSV
+# ===============================
+try:
+    df = pd.read_csv(META_CSV_PATH)
+except FileNotFoundError:
+    print("❌ meta_for_index.csv not found. Build vector DB first.")
+    sys.exit(1)
 
-df = pd.read_csv(TRANSCRIPT_CSV)
+required_cols = {"video_id", "title", "transcript"}
+if not required_cols.issubset(df.columns):
+    print(f"❌ CSV must contain columns: {required_cols}")
+    sys.exit(1)
 
+# ===============================
+# INPUT
+# ===============================
 video_id = input("Enter video ID to summarize: ").strip()
 
-row = df[df["video_id"] == video_id]
+row = df[df["video_id"].astype(str) == str(video_id)]
 
-if row.empty or not isinstance(row.iloc[0]["transcript"], str):
-    print("❌ Transcript not found for this video.")
-    exit()
+if row.empty:
+    print("❌ Video ID not found in metadata.")
+    sys.exit(1)
 
 transcript = row.iloc[0]["transcript"]
 
-# ============================
-# STEP 4: LIMIT TRANSCRIPT SIZE (SPEED BOOST)
-# ============================
-MAX_CHARS = 2000   # reduces inference time drastically
-transcript = transcript[:MAX_CHARS]
+if not isinstance(transcript, str) or not transcript.strip():
+    print("❌ Transcript is empty.")
+    sys.exit(1)
 
-# ============================
-# PROMPT
-# ============================
+# ===============================
+# TRIM TRANSCRIPT (FAST)
+# ===============================
+transcript = transcript[:2000]
+
 prompt = f"""
-Summarize the key ideas from this transcript in bullet points:
+Summarize the following YouTube video transcript clearly and concisely.
+Focus only on key ideas and main takeaways.
 
+Transcript:
 {transcript}
 """
 
-print("\n🧠 Sending transcript to local LLM (Ollama - Mistral)")
-print("⏳ This should take ~10–25 seconds on CPU. Please wait...\n")
+# ===============================
+# CALL OLLAMA (PHI)
+# ===============================
+print("\n🧠 Sending transcript to local LLM (Ollama)...")
+print("⏳ Please wait (20–40 seconds on CPU)\n")
 
-# ============================
-# CALL OLLAMA (FAST MODEL)
-# ============================
 result = subprocess.run(
-    ["ollama", "run", "phi"],   # FAST model
+    ["ollama", "run", OLLAMA_MODEL],
     input=prompt.encode("utf-8"),
     stdout=subprocess.PIPE,
     stderr=subprocess.PIPE
 )
 
-summary = result.stdout.decode("utf-8", errors="ignore").strip()
+summary = result.stdout.decode("utf-8", errors="ignore")
 
-# ============================
+# ===============================
 # OUTPUT
-# ============================
-if summary:
-    print("\n📝 Video Summary:\n")
-    print(summary)
-else:
-    print("⚠️ Ollama did not return output.")
-    if result.stderr:
-        print("\nError details:\n")
-        print(result.stderr.decode("utf-8", errors="ignore"))
+# ===============================
+print("\n📝 Video Summary:\n")
+print(summary.strip())
