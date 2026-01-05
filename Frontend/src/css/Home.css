@@ -1,0 +1,203 @@
+.home {
+  min-height: 100vh;
+  padding: 3rem 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #0f0520, #1a0b2e); /* Dark purple theme to match modal */
+}
+
+.search-form {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  display: flex;
+  gap: 1rem;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Input + Mic Container */
+.search-input-container {
+  position: relative;
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 1rem 3.5rem 1rem 1.5rem; /* Extra right padding for mic */
+  font-size: 1.1rem;
+  border: 2px solid #6a1b9a;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #1a0033;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.search-input::placeholder {
+  color: #888;
+  font-style: italic;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #9c27b0;
+  box-shadow: 0 8px 25px rgba(156, 39, 176, 0.4);
+  background-color: #fff;
+}
+
+/* Voice Search Button */
+.voice-search-button {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #9c27b0;
+  color: white;
+  border: none;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.voice-search-button:hover {
+  background: #ab47bc;
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 6px 18px rgba(156, 39, 176, 0.5);
+}
+
+.voice-search-button.listening {
+  background: #d32f2f !important;
+  animation: pulse 1.8s infinite;
+  box-shadow: 0 0 0 0 rgba(211, 47, 47, 0.7);
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(211, 47, 47, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 16px rgba(211, 47, 47, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(211, 47, 47, 0);
+  }
+}
+
+/* Search Button */
+.search-button {
+  padding: 1rem 2.5rem;
+  background: linear-gradient(to right, #9c27b0, #7b1fa2);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(156, 39, 176, 0.4);
+  white-space: nowrap;
+  min-width: 120px;
+}
+
+.search-button:hover {
+  background: linear-gradient(to right, #ab47bc, #8e24aa);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(156, 39, 176, 0.6);
+}
+
+.search-button:active {
+  transform: translateY(0);
+}
+
+/* Loading & Error */
+.loading {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #ba68c8;
+  padding: 4rem 1rem;
+  font-weight: 500;
+}
+
+.error-message {
+  text-align: center;
+  color: #ff6b6b;
+  background: rgba(255, 107, 107, 0.15);
+  padding: 1rem 2rem;
+  border-radius: 16px;
+  margin: 1rem auto;
+  max-width: 600px;
+  border: 1px solid #ff6b6b;
+  font-weight: 500;
+}
+
+/* Videos Grid - Default: up to 2 columns on medium screens */
+.videos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 2rem;
+  padding: 0 1rem;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* Large screens (maximized window): exactly 3 columns */
+@media (min-width: 1025px) {
+  .videos-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Tablet and below */
+@media (max-width: 768px) {
+  .home {
+    padding: 2rem 0.5rem;
+  }
+
+  .search-form {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .search-input-container {
+    width: 100%;
+    max-width: none;
+  }
+
+  .search-button {
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem;
+  }
+
+  .videos-grid {
+    grid-template-columns: 1fr; /* 1 column on small screens */
+    gap: 1.5rem;
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-input {
+    font-size: 1rem;
+    padding: 0.9rem 3.2rem 0.9rem 1.2rem;
+  }
+
+  .voice-search-button {
+    width: 42px;
+    height: 42px;
+    font-size: 1.3rem;
+  }
+}
