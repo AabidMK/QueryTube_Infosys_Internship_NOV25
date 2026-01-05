@@ -24,7 +24,10 @@ for _,row in df.iterrows():
         "transcript": row["transcript"],
         "channel_title": row["channel_title"],
         "view_count": row["viewCount"],
-        "duration": row["duration"]
+        "duration": row["duration_seconds"],
+        "Upload_date":row["publishedAt"],
+        "thumbnail":row['thumbnail_high'],
+        "likes":row['likeCount']
     })
 document=df['transcript'].tolist()
 collec.add(ids=ids,embeddings=embeds,metadatas=metadata,documents=document)
