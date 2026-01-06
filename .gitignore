@@ -17,3 +17,5 @@ mydb/
 *.sqlite3
 *.bin
 *.pickle
+# Ignore CSV files for Task-8
+task-8/*.csv
