@@ -46,51 +46,6 @@ The system allows users to input naltural language queries and receive the top-5
 
 ---
 
-# Project Structure
-AI-QueryTube/
-│
-├── backend/
-│   ├── src/
-│   │   ├── api.py                 # FastAPI entry point
-│   │   ├── store_vectors.py       # Vector DB creation
-│   │   └── summarize_video.py     # Local LLM summarization
-│   │
-│   ├── data/
-│   │   ├── raw/
-│   │   ├── processed/
-│   │   └── samples/
-│   │
-│   ├── metadata.pkl               # Stored video metadata
-│   ├── vector.index               # FAISS vector index
-│   ├── requirements.txt
-│   └── README.md
-│
-├── frontend/
-│   └── querytube-ui/
-│       ├── public/
-│       ├── src/
-│       │   ├── App.jsx
-│       │   ├── App.css
-│       │   └── main.jsx
-│       ├── package.json
-│       ├── package-lock.json
-│       └── README.md
-│
-├── docs/
-│   ├── architecture.md
-│   └── AI-QueryTube.pdf
-│
-├── scripts/
-│   ├── fetch_metadata.py
-│   ├── fetch_transcript.py
-│   └── generate_embeddings.py
-│
-├── .gitignore
-├── LICENSE
-└── README.md
-
----
-
 # Steps to Run the Project
 1️⃣ Clone the Repository
 git clone https://github.com/<your-username>/AI-QueryTube.git
