@@ -43,3 +43,91 @@ The system allows users to input naltural language queries and receive the top-5
 3. DataBase : FAISS (Facebook AI Similarity Search)
 4. Model : Ollama
 5. APIs : FastAPI, YouTube Data API v3, Flask, POSTMAN
+
+---
+
+# Project Structure
+AI-QueryTube/
+│
+├── backend/
+│   ├── src/
+│   │   ├── api.py                 # FastAPI entry point
+│   │   ├── store_vectors.py       # Vector DB creation
+│   │   └── summarize_video.py     # Local LLM summarization
+│   │
+│   ├── data/
+│   │   ├── raw/
+│   │   ├── processed/
+│   │   └── samples/
+│   │
+│   ├── metadata.pkl               # Stored video metadata
+│   ├── vector.index               # FAISS vector index
+│   ├── requirements.txt
+│   └── README.md
+│
+├── frontend/
+│   └── querytube-ui/
+│       ├── public/
+│       ├── src/
+│       │   ├── App.jsx
+│       │   ├── App.css
+│       │   └── main.jsx
+│       ├── package.json
+│       ├── package-lock.json
+│       └── README.md
+│
+├── docs/
+│   ├── architecture.md
+│   └── AI-QueryTube.pdf
+│
+├── scripts/
+│   ├── fetch_metadata.py
+│   ├── fetch_transcript.py
+│   └── generate_embeddings.py
+│
+├── .gitignore
+├── LICENSE
+└── README.md
+
+---
+
+# Steps to Run the Project
+1️⃣ Clone the Repository
+git clone https://github.com/<your-username>/AI-QueryTube.git
+cd AI-QueryTube
+
+2️⃣ Run the Backend (FastAPI)
+
+Create and activate a virtual environment:
+
+python -m venv venv
+venv\Scripts\activate
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Start the FastAPI server:
+
+uvicorn src.api:app --reload
+
+
+Backend will be available at:
+👉 http://127.0.0.1:8000
+
+Swagger UI:
+👉 http://127.0.0.1:8000/docs
+
+3️⃣ Run the Frontend (React)
+
+Open a new terminal:
+
+cd frontend/querytube-ui
+npm install
+npm run dev
+
+
+Frontend will be available at:
+👉 http://localhost:5173
