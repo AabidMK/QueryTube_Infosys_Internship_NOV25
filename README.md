@@ -211,7 +211,7 @@ abc123,Intro to ML,ML Channel,"This video explains...","[0.12, 0.98, ...]"
 
 ## 👤 Author
 
-**Your Name**
+**Karan**
 Semantic Search & AI Systems Project
 
 ---
