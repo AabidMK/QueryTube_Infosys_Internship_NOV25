@@ -21,7 +21,7 @@ This project demonstrates the integration of **FastAPI**, **React**, **vector da
 - 🧠 **LLM‑Based Summarization**
 
   - On‑demand video summaries
-  - Powered by **Gemini 1.5 Flash (free‑tier)**
+  - Powered by **Gemini 2.5 Flash lite (free‑tier)**
 
 - 🖥️ **Interactive UI**
 
@@ -51,7 +51,7 @@ This project demonstrates the integration of **FastAPI**, **React**, **vector da
 ### AI / ML
 
 - `intfloat/multilingual-e5-large` (embeddings)
-- **Gemini 1.5 Flash** (LLM summarization – free tier)
+- **Gemini 2.5 Flash lite** (LLM summarization – free tier)
 
 ---
 
