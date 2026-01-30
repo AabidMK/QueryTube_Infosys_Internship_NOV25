@@ -29,13 +29,30 @@ Instead of traditional keyword-based search, QueryTube understands the **meaning
 
 ## 🏗️ System Architecture
 
-## Test Tree
-
 ```text
-A/
-├── B/
-│   └── file.txt
-└── C/
+QueryTube/
+│
+├── fastapi/
+│   ├── main.py
+│   ├── ingest.py
+│   ├── search.py
+│   ├── summarize.py
+│   └── QueryTube_db/
+│
+├── embedding-transcript/
+│   ├── generate_embedding.py
+│   └── title_transcript_embeddings.npy
+│
+├── merge/
+│   └── final_clean_dataset.csv
+│
+├── querytube-ai/
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── README.md
+└── .gitignore
 
 
 ---
