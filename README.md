@@ -10,7 +10,6 @@ Instead of traditional keyword-based search, QueryTube understands the meaning o
 4. Cosine similarity is used for ranking
 5. Top results are returned with scores
 
-📁 Project Structure
 QueryTube/
 │
 ├── fastapi/
@@ -37,6 +36,7 @@ QueryTube/
 ├── videos_metadata.csv
 ├── README.md
 └── .gitignore
+
 
 ⚙️ Setup Instructions
 1️⃣ Backend Setup
