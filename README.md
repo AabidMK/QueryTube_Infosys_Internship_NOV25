@@ -33,24 +33,29 @@ Instead of traditional keyword-based search, QueryTube understands the **meaning
 QueryTube/
 │
 ├── fastapi/
-│   ├── main.py
-│   ├── ingest.py
-│   ├── search.py
-│   ├── summarize.py
-│   └── QueryTube_db/
+│   ├── main.py            # FastAPI entry point
+│   ├── ingest.py          # CSV ingestion API
+│   ├── search.py          # Semantic search logic
+│   ├── summarize.py       # Video summarization
+│   └── QueryTube_db/      # ChromaDB persistent storage
 │
 ├── embedding-transcript/
 │   ├── generate_embedding.py
-│   └── title_transcript_embeddings.npy
+│   ├── title_transcript_embeddings.npy
 │
 ├── merge/
-│   └── final_clean_dataset.csv
+│   ├── final_clean_dataset.csv
+│   └── merge scripts
 │
-├── querytube-ai/
+├── querytube-ai/          # React frontend
 │   ├── src/
 │   ├── public/
 │   └── package.json
 │
+├── youtube_scrapper.py    #fetch youtube videos data
+├── fetch_serpapi_transcripts.py    #fetch transcripts form video id
+├── cleaned_metadata.csv
+├── videos_metadata.csv
 ├── README.md
 └── .gitignore
 
