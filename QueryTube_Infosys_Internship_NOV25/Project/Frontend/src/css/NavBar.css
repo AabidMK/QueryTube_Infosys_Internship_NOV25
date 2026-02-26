@@ -1,0 +1,107 @@
+/* =========================
+   NAVBAR CONTAINER
+========================= */
+.navbar {
+  background-color: #0d0d0d;
+  padding: 0.75rem 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* =========================
+   BRAND
+========================= */
+.navbar-brand {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+
+  /* Force white */
+  color: #ffffff;
+}
+
+/* If navbar brand is a Link (<a>) */
+.navbar-brand,
+.navbar-brand:visited,
+.navbar-brand:hover,
+.navbar-brand:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* =========================
+   BUTTON GROUP
+========================= */
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+.navbar-button {
+  font-size: 0.9rem;
+  font-weight: 600;
+
+  padding: 0.65rem 1.4rem;
+  border-radius: 6px;
+
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+
+  cursor: pointer;
+
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.1s ease;
+}
+
+/* If buttons are Links */
+.navbar-button,
+.navbar-button:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navbar-button:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.45);
+  transform: translateY(-1px);
+}
+
+.navbar-button:active {
+  transform: translateY(0);
+}
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.6rem 1rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .navbar-actions {
+    gap: 1.5rem;
+  }
+
+  .navbar-button {
+    padding: 0.55rem 1.1rem;
+    font-size: 0.85rem;
+  }
+}
